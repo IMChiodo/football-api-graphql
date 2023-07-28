@@ -10,7 +10,8 @@ This project is a GraphQL API that fetches data from the Football-Data.org API v
 
 ## Getting Started
 
-1. Download the project ZIP file and extract it.
+1. Clone the repository and navigate into the project directory:
+   `git clone git@github.com:IMChiodo/football-api-graphql.git`
 2. Navigate into the project directory:
    `cd YOUR_PROJECT_NAME`
 
