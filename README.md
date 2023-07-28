@@ -39,25 +39,25 @@ You can use a tool like Postman or GraphQL Playground to run queries against the
 
 1. Import league data (e.g., Champions League):
 
-`{"query": "mutation { importLeague(leagueCode: \"CL\") }"}`
+-   `{"query": "mutation { importLeague(leagueCode: \"CL\") }"}`
 
 2. Fetch all teams:
-   `{"query": "query { allTeams { name } }"}`
+-   `{"query": "query { allTeams { name } }"}`
 
-3. Fetch a specific team (e.g., Chelsea FC):
-   `{"query": "query { team(name: \"Chelsea FC\") { id name players { id name } } }"}`
+4. Fetch a specific team (e.g., Chelsea FC):
+-   `{"query": "query { team(name: \"Chelsea FC\") { id name players { id name } } }"}`
 
-4. Fetch a specific team with its players (e.g., Arsenal FC):
-   `{"query": "query { team(name: \"Arsenal FC\", include: { players: true }) { id name players { id name } } }"}`
+5. Fetch a specific team with its players (e.g., Arsenal FC):
+-   `{"query": "query { team(name: \"Arsenal FC\", include: { players: true }) { id name players { id name } } }"}`
 
 ## Environment Variables
 
 The application uses environment variables to configure the connection to your PostgreSQL database. Before running the application, make sure to set up the following variables in the .env file:
-`DB_HOST=localhost`
-`DB_PORT=5432`
-`DB_USERNAME=your_db_username`
-`DB_PASSWORD=your_db_password`
-`DB_DATABASE=your_database_name`
+-`DB_HOST=localhost`
+-`DB_PORT=5432`
+-`DB_USERNAME=your_db_username`
+-`DB_PASSWORD=your_db_password`
+-`DB_DATABASE=your_database_name`
 
 ## Technologies Used
 
