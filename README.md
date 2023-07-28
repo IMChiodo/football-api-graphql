@@ -53,11 +53,11 @@ You can use a tool like Postman or GraphQL Playground to run queries against the
 ## Environment Variables
 
 The application uses environment variables to configure the connection to your PostgreSQL database. Before running the application, make sure to set up the following variables in the .env file:
--`DB_HOST=localhost`
--`DB_PORT=5432`
--`DB_USERNAME=your_db_username`
--`DB_PASSWORD=your_db_password`
--`DB_DATABASE=your_database_name`
+-   `DB_HOST=localhost`
+-   `DB_PORT=5432`
+-   `DB_USERNAME=your_db_username`
+-   `DB_PASSWORD=your_db_password`
+-   `DB_DATABASE=your_database_name`
 
 ## Technologies Used
 
