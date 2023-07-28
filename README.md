@@ -18,11 +18,11 @@ This project is a GraphQL API that fetches data from the Football-Data.org API v
    `npm install`
 
 4. Create a .env file in the root of the project and set the required environment variables (follow the .env.example file):
-   `DB_HOST=localhost`
-   `DB_PORT=5432`
-   `DB_USERNAME=your_db_username`
-   `DB_PASSWORD=your_db_password`
-   `DB_DATABASE=your_database_name`
+-   `DB_HOST=localhost`
+-   `DB_PORT=5432`
+-   `DB_USERNAME=your_db_username`
+-   `DB_PASSWORD=your_db_password`
+-   `DB_DATABASE=your_database_name`
 
 5. Run the application:
    This will create the PostgreSQL database and start the server. You can now access the GraphQL API at http://localhost:3000/graphql.
