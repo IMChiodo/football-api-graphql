@@ -24,9 +24,10 @@ This project is a GraphQL API that fetches data from the Football-Data.org API v
 -   `DB_USERNAME=your_db_username`
 -   `DB_PASSWORD=your_db_password`
 -   `DB_DATABASE=your_database_name`
+-   `PORT=your_desired_port_to_run`
 
 5. Run the application:
-   This will create the PostgreSQL database and start the server. You can now access the GraphQL API at http://localhost:3000/graphql.
+   This will create the PostgreSQL database and start the server. You can now access the GraphQL API at http://localhost:3000/graphql (assuming your desired port is 3000).
 
 ## Features
 
@@ -59,6 +60,7 @@ The application uses environment variables to configure the connection to your P
 -   `DB_USERNAME=your_db_username`
 -   `DB_PASSWORD=your_db_password`
 -   `DB_DATABASE=your_database_name`
+-   `PORT=your_desired_port_to_run`
 
 ## Technologies Used
 
